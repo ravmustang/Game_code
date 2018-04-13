@@ -10,7 +10,7 @@
 	remoteExecCall to client garage contents
 */
 
-private["_slots", "_debug", "_playerUID", "_response", "_vehsFriendly", "_vehsRaw", "_toSpawn", "_veh", "_safePOS", "_allHitpoints", "_actualHitpoints", "_dmg", "_response2"];
+private["_persistentVics", "_slots", "_debug", "_playerUID", "_response", "_vehsFriendly", "_vehsRaw", "_toSpawn", "_veh", "_safePOS", "_allHitpoints", "_actualHitpoints", "_dmg", "_response2"];
 params [ 
 	["_slot", -1, [0]],
 	["_playerObj", objNull, [objNull]],
